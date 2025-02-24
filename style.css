@@ -80,3 +80,72 @@ button:active {
     font-size: 14px;
     color: #666;
 }
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Gadget Container */
+#gadget-container {
+    width: 250px;
+    background: linear-gradient(to bottom, #2c3e50, #34495e);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Header */
+#gadget-header {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* IP Display */
+#ip {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/* Input & Button */
+input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    background: #2980b9;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #1f6690;
+}
+
+/* Output Text */
+#output-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ecf0f1;
+    padding: 5px;
+}
