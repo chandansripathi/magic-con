@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+    <name>AlexMagicCon</name>
+    <namespace>com.alex.magiccon</namespace>
+    <version>1.0</version>
+    <author>Alex</author>
+    <copyright>Copyright © 2025 Alex</copyright>
+    <description>Optimized Windows gadget for system monitoring and control</description>
+    
+    <icons>
+        <icon height="16" width="16" src="images/icon16.png"/>
+        <icon height="32" width="32" src="images/icon32.png"/>
+        <icon height="48" width="48" src="images/icon48.png"/>
+        <icon height="128" width="128" src="images/icon128.png"/>
+    </icons>
+
+    <host>
+        <platform minVersion="1.0"/>
+    </host>
+
+    <content type="html" src="gadget.html" width="300" height="400"/>
+    
+    <flyout src="flyout.html" width="250" height="300"/>
+    
+    <settings>
+        <page src="settings.html" />
+    </settings>
+</gadget>
