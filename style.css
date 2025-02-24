@@ -1,0 +1,82 @@
+/* Optimized style.css - Improved performance, readability, and consistency */
+
+:root {
+    --primary-color: #004aad;
+    --secondary-color: #ffffff;
+    --text-color: #333;
+    --border-radius: 8px;
+    --transition-speed: 0.3s;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: var(--secondary-color);
+    color: var(--text-color);
+    padding: 10px;
+}
+
+/* Main Container */
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: var(--secondary-color);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform var(--transition-speed);
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    transition: border var(--transition-speed);
+}
+
+input:focus, select:focus {
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background var(--transition-speed);
+}
+
+button:hover {
+    background: #003b8b;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
