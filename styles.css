@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e1e2e, #3a3a5a);
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    user-select: none;
+}
+
+/* Gadget Container */
+#gadget-container {
+    width: 250px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+header h1 {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Status Section */
+#status p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Controls */
+#controls {
+    margin-top: 10px;
+}
+
+button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Footer */
+footer {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
